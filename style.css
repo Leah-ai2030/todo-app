@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:'Segoe UI', sans-serif;
+    background-color: #f0f2f5;
+    display:flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.app-container{
+    background:white;
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15pxrgba(0,0,0,0.1);
+}
+h1{
+    text-align: center;
+    color: #333;
+    margin-bottom:20px;
+}
+input{
+    flex:1;
+    padding: 10px;
+    border-radius:5px;
+    font-size: 16px;
+}
+button{
+    padding: 10px 15px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+    background-color: #005999;
+}
+/* these only for the working works later*/
+ul{
+    list-style: none;
+}
+li{
+    background: #f9f9f9;
+    border-left: 4px solid #007acc;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+}
+/* kitufe cha kufuta kazi*/
+.delete-btn{
+    background-color: #e74c3c;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+.delete-btn:hover{
+    background-color: #c0392b;
+}
